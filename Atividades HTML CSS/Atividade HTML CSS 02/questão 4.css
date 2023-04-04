@@ -1,0 +1,12 @@
+h1, h2, p{ font-family: Arial;}
+h1{
+    color: brown;
+}
+
+h2{
+    color: rgb(46, 105, 97);
+}
+
+p.destaque {
+    text-align: center;
+}

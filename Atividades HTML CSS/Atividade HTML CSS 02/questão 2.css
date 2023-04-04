@@ -1,0 +1,17 @@
+h1, h2{ font-family: Arial;}
+h1{
+    color: brown;
+}
+
+h2{
+    color: rgb(20, 39, 31);
+}
+
+h2{
+    text-align: justify;
+}
+
+body{
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    height: 200px;
+}

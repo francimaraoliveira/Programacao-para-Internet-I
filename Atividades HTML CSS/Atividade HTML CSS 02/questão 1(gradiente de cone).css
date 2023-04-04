@@ -1,0 +1,16 @@
+h1, h2{ font-family: Arial;}
+h1{
+    color: brown;
+}
+
+h2{
+    color: darkgreen;
+}
+
+body{
+    background: conic-gradient(at 0% 30%, red 10%, yellow 30%, #1e90ff 50%);
+}
+
+h2{
+    text-align: justify;
+}  

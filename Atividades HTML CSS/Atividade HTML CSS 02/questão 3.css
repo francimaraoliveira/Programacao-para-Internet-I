@@ -1,0 +1,16 @@
+h1, h2, p{ font-family: Arial;}
+h1{ 
+    color: brown;
+}
+
+h2{ 
+    color: rgba(65, 62, 62);
+}
+
+body{ 
+    background: linear-gradient(to right, rgba(65, 75, 85, 1) 0%,rgba(84, 100, 127, 1) 35%, rgba(121, 153, 192, 1) 100%);                           
+}
+
+h2{ 
+    text-align: justify;
+}    

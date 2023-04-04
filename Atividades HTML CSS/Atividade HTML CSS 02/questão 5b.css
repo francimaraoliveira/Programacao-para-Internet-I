@@ -1,0 +1,15 @@
+h1, h2, p{ font-family: Arial;}
+h1{
+    color: white;
+}
+h2{
+    color: darkgreen;
+}
+
+body{
+    background: linear-gradient(to left, blue, orange, green, pink);
+}
+
+p.destaque {
+    text-align: center;
+}                     
