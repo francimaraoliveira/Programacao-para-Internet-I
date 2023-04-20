@@ -1,0 +1,23 @@
+O DOM (Document Object Model) é uma interface de programação de aplicativos (API) que representa a estrutura em árvore de um documento HTML ou XML 
+como um conjunto de objetos, permitindo o acesso e manipulação dinâmica dos elementos do documento por meio de scripts.
+O DOM é uma representação em memória do documento HTML ou XML carregado em um navegador da web e fornece uma maneira estruturada de interagir 
+com os elementos desse documento. Ele permite que os desenvolvedores acessem, modifiquem e atualizem os elementos e atributos do documento, 
+como texto, imagens, formulários e estilos, usando JavaScript ou outras linguagens de script.
+A partir das páginas mencionadas, podemos destacar alguns pontos importantes sobre o DOM:
+    1. Estrutura em árvore: O DOM representa o documento HTML ou XML como uma estrutura em árvore, onde os elementos do documento são representados
+como nós e suas relações de hierarquia são representadas como arestas. Isso permite que os desenvolvedores acessem e manipulem os elementos do 
+documento de forma hierárquica, navegando pelos nós pai, filho e irmão.
+    2. Acesso e manipulação dos elementos: O DOM permite que os desenvolvedores acessem e manipulem os elementos do documento, como elementos HTML, 
+atributos, texto e estilos. É possível modificar o conteúdo dos elementos, adicionar ou remover elementos, alterar atributos e estilos, e até mesmo 
+manipular eventos, como cliques e teclas pressionadas.
+    3. Plataforma independente: O DOM é uma API padronizada pela W3C (World Wide Web Consortium) e é suportado por todos os principais navegadores 
+da web. Isso significa que o DOM pode ser usado em diferentes navegadores e sistemas operacionais, tornando-o uma opção viável para o desenvolvimento 
+de aplicações web multiplataforma.
+    4. Interatividade dinâmica: O DOM permite que os desenvolvedores criem aplicações web interativas e dinâmicas, onde os elementos do documento 
+podem ser atualizados e respondem a eventos do usuário. Por exemplo, é possível criar um formulário que reaja a eventos de clique do usuário e 
+atualize o conteúdo do documento em tempo real sem a necessidade de recarregar a página.
+    5. Integração com JavaScript: O DOM é comumente utilizado em conjunto com JavaScript para criar aplicações web dinâmicas e interativas. 
+O JavaScript é uma linguagem de programação amplamente suportada pelos navegadores da web e é capaz de interagir com o DOM para acessar e manipular 
+elementos do documento. Em resumo, o DOM é uma API que permite o acesso e manipulação de elementos de um documento HTML ou XML em uma página web. 
+Ele fornece uma representação em memória do documento como uma estrutura em árvore e é amplamente utilizado em conjunto com JavaScript para criar 
+aplicações web interativas e dinâmicas.
