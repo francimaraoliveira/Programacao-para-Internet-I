@@ -1,0 +1,76 @@
+h1, h2, p{font-family: Arial;}
+
+h1 {
+    color: #5d665b;
+    font-size: 16 px;
+    letter-spacing: .5rem;
+    text-align: center;
+    background-color: #005eb0;
+    color: #D9CCC1;
+}
+
+h2 {
+    color: #5d665b;
+    font-size: .1.5rem;
+    text-align: justify;
+    background-color: #005eb0;
+    color: #D9CCC1;
+}
+
+p {
+    font-size: .1.0rem;
+    color:  #024059;
+}
+
+body {
+    font-family: Arial;
+    background-image: linear-gradient(to left, #b3cce2, #D9CCC1);
+    font-size: .3rem;
+}
+
+@font-face {
+    font-family: 'Tilt Neon';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/tiltneon/v5/E21L_d7gguXdwD9LEFY2WCeElCNtd-eBqpHp1TzrkJSmwpj5ndxquUK6UOc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+p.citacao_motivacional {
+    font-family: 'Tilt neon', cursive;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+p.autor_da_postagem {
+    text-align: right;
+    color: darkslategray;
+    font-style: italic;
+}
+
+p.data {
+    text-align: left;
+    color: darkslategray;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+p.texto_riscado {
+    text-align: justify;
+    position: relative;
+}
+ 
+p.texto_riscado:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 1px solid;
+    border-color: inherit;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
